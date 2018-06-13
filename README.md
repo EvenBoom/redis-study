@@ -4,6 +4,6 @@
 ## 目录
 <table>
   <tr>
-    <td><a>snap-up</a></td>
+    <td><a href="snap-up">秒杀功能</a></td>
   </tr>
 </table>
