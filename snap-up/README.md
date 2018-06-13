@@ -1,12 +1,12 @@
 # 秒杀功能
 ## FAQ
-Q:为什么redis能实现秒杀功能?   
+Q:为什么redis能实现秒杀功能？   
 A:因为redis是单进程单线程（epoll）   
     
-Q:redis能否使用GET,SET来实现秒杀功能?		
+Q:redis能否使用GET,SET来实现秒杀功能？    
 A:不能！高并发下会出现超买超卖现象，所以使用redis的队列实现   
     
-Q:如何进行测试?		
+Q:如何进行测试？    
 A:可以使用jmeter测试工具模拟高并发测试   
 ```
 package main
