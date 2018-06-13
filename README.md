@@ -1,6 +1,6 @@
 # redis-study
 ## 简介
-分享golang对redis的学习与应用
+分享redis的学习与应用（golang）
 ## 目录
 <table>
   <tr>
